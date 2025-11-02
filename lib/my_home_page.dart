@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -69,6 +71,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text(
+              'Isabel Saorin Sanchez',
+              style: GoogleFonts.creepster(
+                fontSize: 40,
+                color: Colors.red,
+              ),
+            ),
+
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
