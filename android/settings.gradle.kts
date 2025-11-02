@@ -24,3 +24,4 @@ plugins {
 }
 
 include(":app")
+rootProject.name = "pmdm_2526_t01"
